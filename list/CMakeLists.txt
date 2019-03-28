@@ -5,4 +5,4 @@ include_directories(include)
 
 set(LIST_LIST src/arrayList.cpp)
 
-add_executable(List ${LIST_LIST} main.cpp)
+add_executable(List main.cpp ${LIST_LIST})
