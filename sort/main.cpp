@@ -2,6 +2,7 @@
 #include "heap_sort.h"
 #include "merge_sort.h"
 #include "quick_sort.h"
+#include "insert_sort.h"
 
 using namespace std;
 
@@ -18,7 +19,7 @@ int main()
 //    vec.push_back(6);
 //    vec.push_back(5);
 //    vec.push_back(3);
-    quick_sort(vec);
+    insert_sort(vec);
 
     std::vector<int>::iterator it;
     for(it = vec.begin();it <vec.end();it++)
